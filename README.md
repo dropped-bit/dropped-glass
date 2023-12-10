@@ -13,3 +13,8 @@ Windows set up
 cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build
 
 ```
+
+6. PowerToys
+```
+winget install Microsoft.PowerToys --source winget
+```
